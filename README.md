@@ -13,7 +13,7 @@ Gunakan userbot ini dengan bijak.
 Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya.
 ```
 <h3 align='center">Klik tombol di Bawah ini untuk deploy di bot 
-<p align='center"><a href="htttps://t.me/XTZ_HerokuBot?start=bXJpc21hbmF6aXovUHlyb01hbi1Vc2VyYm90IG1haW4           
+<p align='center"><a href="https://t.me/XTZ_HerokuBot?start=bXJpc21hbmF6aXovUHlyb01hbi1Vc2VyYm90IG1haW4           
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
 <p align="center"><a href="https://risman.vercel.app/deploy-pyro.html"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
