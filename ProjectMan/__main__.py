@@ -15,10 +15,10 @@ from ProjectMan import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from ProjectMan.helpers.misc import git, heroku
 
 MSG_ON = """
-🔥 **PyroMan-Userbot Berhasil Di Aktifkan**
+🔥 **PyroRez-Userbot udah nyala anjing🔥**
 ━━
 ➠ **Userbot Version -** `{}`
-➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
+➠ **Ketik** `{}Rez` **untuk Mengecheck Bot**
 ━━
 """
 
@@ -28,7 +28,7 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("Lunatic0de")
+            await bot.join_chat("musikku21")
             await bot.join_chat("SharingUserbot")
             await bot.send_message(BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER))
         except Exception as a:
@@ -38,10 +38,10 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("ProjectMan").info("Starting PyroMan-UserBot")
-    LOGGER("ProjectMan").info(f"Total Clients = {len(bots)} Users")
+    LOGGER("RezaProject").info("Starting RezaProject")
+    LOGGER("RezaProject").info(f"Total Clients = {len(bots)} Users")
     install()
     git()
     heroku()
-    LOGGER("ProjectMan").info(f"PyroMan-UserBot v{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+    LOGGER("RezaProject").info(f"RezaProject v{BOT_VER} [🔥 Reza userbot sudah aktif masse! 🔥]")
     LOOP.run_until_complete(main())
