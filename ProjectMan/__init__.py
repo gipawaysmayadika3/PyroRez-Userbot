@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/SharingUserbot & t.me/Lunatic0de
+# t.me/SharingUserbot & t.me/musikku21
 
 import asyncio
 import logging
@@ -98,7 +98,7 @@ bot1 = (
         session_name=STRING_SESSION1,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="ProjectMan/modules"),
+        plugins=dict(root="ProjectRez/modules"),
     )
     if STRING_SESSION1
     else None
@@ -109,7 +109,7 @@ bot2 = (
         session_name=STRING_SESSION2,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="ProjectMan/modules"),
+        plugins=dict(root="ProjectRez/modules"),
     )
     if STRING_SESSION2
     else None
@@ -120,7 +120,7 @@ bot3 = (
         session_name=STRING_SESSION3,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="ProjectMan/modules"),
+        plugins=dict(root="ProjectRez/modules"),
     )
     if STRING_SESSION3
     else None
@@ -131,7 +131,7 @@ bot4 = (
         session_name=STRING_SESSION4,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="ProjectMan/modules"),
+        plugins=dict(root="ProjectRez/modules"),
     )
     if STRING_SESSION4
     else None
@@ -142,7 +142,7 @@ bot5 = (
         session_name=STRING_SESSION5,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="ProjectMan/modules"),
+        plugins=dict(root="ProjectRez/modules"),
     )
     if STRING_SESSION5
     else None
